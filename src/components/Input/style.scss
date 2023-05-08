@@ -1,0 +1,18 @@
+input {
+    width: 14rem;
+    height: 3rem;
+    background: #FFF;
+    border: none;
+    margin: 0 auto;
+    margin-top: 1rem;
+    outline: none;
+    font-weight: bold;
+    padding-left: 1rem;
+
+    border-radius: 20px;
+
+    &::placeholder {
+        font-weight: bold;
+        margin-left: 1rem;
+    }
+}

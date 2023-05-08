@@ -1,0 +1,39 @@
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
+    .div {
+        display: flex;
+        margin-top: -4.5rem;
+
+        .logo {
+            margin-top: -0.9rem;
+        }
+
+        .title {
+            margin-left: -4rem;
+        }
+    }
+
+    button {
+        width: 6.5rem;
+        height: 1.8rem;
+        margin-top: 1rem;
+        margin-right: 3rem;
+        line-height: 50%;
+        background: var(--lilac-600);
+        border-radius: 25px;
+        border: none;
+        color: var(--white);
+        font-weight: bold;
+        box-shadow: 0px 3px 5px #000;
+        transition: filter 0.2s;
+
+        &:hover {
+            filter: brightness(0.8);
+        }
+    }
+
+    
+}
